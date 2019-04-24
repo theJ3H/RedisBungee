@@ -460,7 +460,7 @@ public final class RedisBungee extends Plugin {
                             getLogger().severe("You have launched a possible impostor BungeeCord instance. Another instance is already running.");
                             getLogger().severe("For data consistency reasons, RedisBungee will now disable itself.");
                             getLogger().severe("If this instance is coming up from a crash, create a file in your RedisBungee plugins directory with the name 'restarted_from_crash.txt' and RedisBungee will not perform this check.");
-                            throw new RuntimeException("Possible impostor instance!");
+                            //throw new RuntimeException("Possible impostor instance!");
                         }
                     } catch (NumberFormatException ignored) {
                     }
